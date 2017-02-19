@@ -28,7 +28,7 @@
    id: 'easy_zoom',
    parent: 'body',
    append: true,
-   preload: 'Loading...',
+   preload: 'Memuat...',
    error: 'There has been a problem with loading the image.'
   };
   
