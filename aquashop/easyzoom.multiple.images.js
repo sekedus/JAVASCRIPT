@@ -1,16 +1,16 @@
 /*
- *  Easy Zoom 1.0 - jQuery plugin
- * written by Alen Grakalic 
- * http://cssglobe.com/jquery-plugin-easy-image-zoom
+ * 	Easy Zoom 1.0 - jQuery plugin
+ *	written by Alen Grakalic	
+ *	http://cssglobe.com/jquery-plugin-easy-image-zoom
  *
- * Copyright (c) 2011 Alen Grakalic (http://cssglobe.com)
- * Dual licensed under the MIT (MIT-LICENSE.txt)
- * and GPL (GPL-LICENSE.txt) licenses.
+ *	Copyright (c) 2011 Alen Grakalic (http://cssglobe.com)
+ *	Dual licensed under the MIT (MIT-LICENSE.txt)
+ *	and GPL (GPL-LICENSE.txt) licenses.
  *
- * Built for jQuery library
- * http://jquery.com
+ *	Built for jQuery library
+ *	http://jquery.com
  *
- * Modified for Multiple Images by : http://www.loadsomecode.com/2013/10/jquery-plugin-modified-image-magnifier.html
+ *	Modified for Multiple Images by : http://www.loadsomecode.com/2013/10/jquery-plugin-modified-image-magnifier.html
  *
  */
 
