@@ -1,7 +1,7 @@
 /*
  *  Easy Zoom 1.0 - jQuery plugin
  * written by Alen Grakalic 
- * http://cssglobe.com/post/9711/jquery-plugin-easy-image-zoom
+ * http://cssglobe.com/jquery-plugin-easy-image-zoom
  *
  * Copyright (c) 2011 Alen Grakalic (http://cssglobe.com)
  * Dual licensed under the MIT (MIT-LICENSE.txt)
