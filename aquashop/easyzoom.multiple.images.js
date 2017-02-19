@@ -31,7 +31,7 @@
    parent: 'body',
    append: true,
    preload: 'Memuat...',
-   error: 'There has been a problem with loading the image.'
+   error: 'Terjadi masalah saat memuat gambar.'
   };
   
   var obj;
