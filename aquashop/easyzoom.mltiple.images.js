@@ -10,6 +10,8 @@
  * Built for jQuery library
  * http://jquery.com
  *
+ * Modified for Multiple Images by : http://www.loadsomecode.com/2013/10/jquery-plugin-modified-image-magnifier.html
+ *
  */
 
  /*
