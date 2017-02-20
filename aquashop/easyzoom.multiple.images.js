@@ -208,7 +208,7 @@
    /* begin new code */
    //check if big image was loaded (is available)
    if (!loaded) {
-    $('#'+ options.id).html('').append("Big image is not available");
+    $('#'+ options.id).html('').append("Memuat...");
    };
    /* end new code */   
   };
