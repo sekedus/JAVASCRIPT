@@ -82,24 +82,27 @@
 					"SEK": { code: "SEK", symbol: "kr ", name: "Swedish Krona" },
 					"CHF": { code: "CHF", symbol: "CHF ", name: "Swiss Franc" },
 					"THB": { code: "THB", symbol: "฿", name: "Thai Baht" },
+					"IDR": { code: "IDR", symbol: "Rp. ", name: "Indonesian Rupiah" },
+					"MYR": { code: "MYR", symbol: "RM ", name: "Malaysian Ringgit" },
+					"INR": { code: "INR", symbol: "₹", name: "Indian Rupee" },
 					"BTC": { code: "BTC", symbol: " BTC", name: "Bitcoin", accuracy: 4, after: true	}
 				},
 
 				// default options
 				settings = {
 					checkout				: { type: "PayPal", email: "you@yours.com" },
-					currency				: "USD",
+					currency				: "IDR",
 					language				: "english-us",
 
 					cartStyle				: "div",
 					cartColumns			: [
-						{ attr: "name", label: "Name" },
-						{ attr: "price", label: "Price", view: 'currency' },
+						{ attr: "name", label: "Nama Item" },
+						{ attr: "price", label: "Harga", view: 'currency' },
 						{ view: "decrement", label: false },
-						{ attr: "quantity", label: "Qty" },
+						{ attr: "quantity", label: "Jumlah" },
 						{ view: "increment", label: false },
-						{ attr: "total", label: "SubTotal", view: 'currency' },
-						{ view: "remove", text: "Remove", label: false }
+						{ attr: "total", label: "Subtotal", view: 'currency' },
+						{ view: "remove", text: "Hapus", label: false }
 					],
 
 					excludeFromCheckout	: ['thumb'],
