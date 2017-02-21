@@ -714,8 +714,8 @@
 
 					// check to make sure price is valid
 					if (isString(_data.price)) {
-					   // trying to remove all chars that aren't numbers or '.' or ','
-						_data.price = parseFloat(_data.price.split(simpleCart.currency().decimal)[0]);
+					   // trying to remove all chars that aren't numbers or ','
+						_data.price = parseFloat(_data.price.replace(simpleCart.currency().decimal, ",").replace(/[^0-9\.]+/ig, ""));
 
 					}
 					if (isNaN(_data.price)) {
@@ -1286,7 +1286,7 @@
 					var num = parseFloat(number),
 						opt_input = opts || {},
 						_opts = simpleCart.extend(simpleCart.extend({
-							  symbol:	"Rp."
+							  symbol:	"$"
 							, delimiter:		"."
 							, decimal:	","
 							, accuracy:		2
