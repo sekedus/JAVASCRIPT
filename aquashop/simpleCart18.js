@@ -715,7 +715,7 @@
 					// check to make sure price is valid
 					if (isString(_data.price)) {
 					   // trying to remove all chars that aren't numbers or '.' or ','
-						_data.price = parseFloat(_data.price.substring(0, s.indexOf(simpleCart.currency().delimiter));
+						_data.price = parseFloat(_data.price.split(simpleCart.currency().decimal)[0]);
 
 					}
 					if (isNaN(_data.price)) {
