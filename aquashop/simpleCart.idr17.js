@@ -1286,9 +1286,9 @@
 					var num = parseFloat(number),
 						opt_input = opts || {},
 						_opts = simpleCart.extend(simpleCart.extend({
-							  symbol:		"$"
-							, decimal:		"."
-							, delimiter:	","
+							  symbol:	"Rp."
+							, delimiter:		"."
+							, decimal:	","
 							, accuracy:		2
 							, after: false
 						}, simpleCart.currency()), opt_input),
