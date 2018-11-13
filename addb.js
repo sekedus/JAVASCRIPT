@@ -1,4 +1,4 @@
-var aadb = {
+keepStart({
     "images": [{
         "src": "https://googleads.g.doubleclick.net/favicon.ico"
     }, {
@@ -6,4 +6,4 @@ var aadb = {
     }, {
         "src": "https://mellowads.com/favicon.ico"
     }]
-}
+})
