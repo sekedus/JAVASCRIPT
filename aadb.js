@@ -5,6 +5,9 @@ keepStart({
   }, {
     "src": "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
     "title": "Google Ads"
+  }, {
+    "src": "//raw.githack.com/sekedus/javascript/master/banner-ad.js",
+    "title": "Sample Ads"
   }],
   "images": [{
     "src": "https://www.popads.net/favicon.ico",
