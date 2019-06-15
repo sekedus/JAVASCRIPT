@@ -1,1 +1,1 @@
-var blokade = true;
+console.log('No Adblock');
